@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MuviAPI</title>
+    <link rel="stylesheet" href="/static/styles.css?v=20260619-8" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <a class="brand-link" href="/" aria-label="Ir al inicio de MuviAPI">
+          <p class="eyebrow">FastAPI + TMDB</p>
+          <h1>MuviAPI</h1>
+        </a>
+      </header>
+
+      <section class="search-row">
+        <input id="searchInput" type="search" placeholder="Busca una pelicula, director o actor" autocomplete="off" />
+        <button id="searchButton" type="button">Buscar</button>
+      </section>
+
+      <section class="filter-row" aria-label="Filtros rapidos">
+        <button class="filter-chip active" type="button" data-filter="all">Todo</button>
+        <button class="filter-chip" type="button" data-filter="movie">Peliculas</button>
+        <button class="filter-chip" type="button" data-filter="person">Actores</button>
+        <button class="filter-chip" type="button" data-filter="popular">Populares</button>
+        <button class="filter-chip" type="button" data-filter="upcoming">Proximos estrenos</button>
+      </section>
+
+      <section class="hero" id="hero">
+        <div class="hero-copy">
+          <p class="eyebrow" id="heroKicker">Tendencias de la semana</p>
+          <h2 id="heroTitle">Explora peliculas y talentos en un solo lugar</h2>
+          <p id="heroText">Busca peliculas, revisa reparto, abre actores y navega por sus filmografias sin salir de la misma visual.</p>
+        </div>
+      </section>
+
+      <section class="content-grid">
+        <aside class="results-panel">
+          <div class="section-heading">
+            <h3 id="resultsTitle">Tendencias</h3>
+            <span id="resultCount">0</span>
+          </div>
+          <div id="results" class="result-list"></div>
+        </aside>
+
+        <section class="detail-panel" id="detailPanel">
+          <div class="empty-state">
+            <h3>Selecciona un titulo o una persona</h3>
+            <p>El detalle mostrara ficha tecnica, calificacion de TMDB, fecha, director, biografia, reparto y filmografia segun corresponda.</p>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="/static/app.js?v=20260619-8"></script>
+  </body>
+</html>

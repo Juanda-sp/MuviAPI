@@ -1,0 +1,30 @@
+INFO:     127.0.0.1:64090 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64092 - "GET /people/search?query=zendya HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54438 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54438 - "GET /static/styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51735 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51736 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51739 - "GET /static/styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51739 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51736 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51735 - "GET /movies/trending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51735 - "GET /movies/1084244 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56029 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56029 - "GET /static/styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64844 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64844 - "GET /movies/trending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64844 - "GET /movies/1084244 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60681 - "GET /movies/499088 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62316 - "GET /movies/search?query=Spiderman HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62316 - "GET /movies/969681 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58804 - "GET /people/505710 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59414 - "GET /movies/429617 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59317 - "GET /people/1136406 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65030 - "GET /movies/557 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56875 - "GET /people/5293 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56875 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56875 - "GET /static/styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56374 - "GET /static/app.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56374 - "GET /movies/trending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56374 - "GET /movies/1084244 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56127 - "GET /movies/675445 HTTP/1.1" 200 OK
